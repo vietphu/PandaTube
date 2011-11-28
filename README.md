@@ -8,7 +8,7 @@ How Do I Use It
 
 It is very simple to use, first initialise the class:
 
-    PandaTube pandaTube = [[PandaTube alloc] init];
+    PandaTube *pandaTube = [[PandaTube alloc] init];
     
 Then simple tell PandaTube which video you want to play:
 
