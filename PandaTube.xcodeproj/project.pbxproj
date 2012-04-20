@@ -13,6 +13,15 @@
 		8BF7FE5E1540915000B604B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BF7FE5C1540915000B604B4 /* InfoPlist.strings */; };
 		8BF7FE601540915000B604B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7FE5F1540915000B604B4 /* main.m */; };
 		8BF7FE641540915000B604B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7FE631540915000B604B4 /* AppDelegate.m */; };
+		8BF7FE701540916300B604B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF7FE531540915000B604B4 /* UIKit.framework */; };
+		8BF7FE711540916300B604B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF7FE551540915000B604B4 /* Foundation.framework */; };
+		8BF7FE721540916300B604B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF7FE571540915000B604B4 /* CoreGraphics.framework */; };
+		8BF7FE781540916300B604B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BF7FE761540916300B604B4 /* InfoPlist.strings */; };
+		8BF7FE7A1540916300B604B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7FE791540916300B604B4 /* main.m */; };
+		8BF7FE8A1540992700B604B4 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF7FE881540991200B604B4 /* GHUnitIOS.framework */; };
+		8BF7FE8D15409A1700B604B4 /* PandaTubePlaylistTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7FE8C15409A1700B604B4 /* PandaTubePlaylistTest.m */; };
+		8BF7FE9115409BEF00B604B4 /* PandaTubePlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7FE9015409BEF00B604B4 /* PandaTubePlaylist.m */; };
+		8BF7FE9215409BEF00B604B4 /* PandaTubePlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7FE9015409BEF00B604B4 /* PandaTubePlaylist.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +29,21 @@
 		8BF7FE531540915000B604B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8BF7FE551540915000B604B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8BF7FE571540915000B604B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8BF7FE5B1540915000B604B4 /* PandaTube-Info.plist */ = {isa = PBXFileReference; path = "PandaTube-Info.plist"; sourceTree = "<group>"; };
+		8BF7FE5B1540915000B604B4 /* PandaTube-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PandaTube-Info.plist"; sourceTree = "<group>"; };
 		8BF7FE5D1540915000B604B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8BF7FE5F1540915000B604B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8BF7FE611540915000B604B4 /* PandaTube-Prefix.pch */ = {isa = PBXFileReference; path = "PandaTube-Prefix.pch"; sourceTree = "<group>"; };
-		8BF7FE621540915000B604B4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BF7FE611540915000B604B4 /* PandaTube-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PandaTube-Prefix.pch"; sourceTree = "<group>"; };
+		8BF7FE621540915000B604B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8BF7FE631540915000B604B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BF7FE6E1540916300B604B4 /* PandTubeTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PandTubeTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF7FE751540916300B604B4 /* PandTubeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PandTubeTests-Info.plist"; sourceTree = "<group>"; };
+		8BF7FE771540916300B604B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BF7FE791540916300B604B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BF7FE7B1540916300B604B4 /* PandTubeTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PandTubeTests-Prefix.pch"; sourceTree = "<group>"; };
+		8BF7FE881540991200B604B4 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = Frameworks/GHUnitIOS.framework; sourceTree = "<group>"; };
+		8BF7FE8C15409A1700B604B4 /* PandaTubePlaylistTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PandaTubePlaylistTest.m; path = PandaTube/Classes/Tests/PandaTubePlaylistTest.m; sourceTree = SOURCE_ROOT; };
+		8BF7FE8F15409BEF00B604B4 /* PandaTubePlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PandaTubePlaylist.h; path = Classes/PandaTubePlaylist.h; sourceTree = "<group>"; };
+		8BF7FE9015409BEF00B604B4 /* PandaTubePlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PandaTubePlaylist.m; path = Classes/PandaTubePlaylist.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +57,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8BF7FE6B1540916300B604B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF7FE8A1540992700B604B4 /* GHUnitIOS.framework in Frameworks */,
+				8BF7FE701540916300B604B4 /* UIKit.framework in Frameworks */,
+				8BF7FE711540916300B604B4 /* Foundation.framework in Frameworks */,
+				8BF7FE721540916300B604B4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -46,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				8BF7FE591540915000B604B4 /* PandaTube */,
+				8BF7FE731540916300B604B4 /* PandTubeTests */,
 				8BF7FE521540915000B604B4 /* Frameworks */,
 				8BF7FE501540915000B604B4 /* Products */,
 			);
@@ -55,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				8BF7FE4F1540915000B604B4 /* PandaTube.app */,
+				8BF7FE6E1540916300B604B4 /* PandTubeTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +93,7 @@
 		8BF7FE521540915000B604B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8BF7FE881540991200B604B4 /* GHUnitIOS.framework */,
 				8BF7FE531540915000B604B4 /* UIKit.framework */,
 				8BF7FE551540915000B604B4 /* Foundation.framework */,
 				8BF7FE571540915000B604B4 /* CoreGraphics.framework */,
@@ -72,6 +104,7 @@
 		8BF7FE591540915000B604B4 /* PandaTube */ = {
 			isa = PBXGroup;
 			children = (
+				8BF7FE8E15409BDD00B604B4 /* Classes */,
 				8BF7FE621540915000B604B4 /* AppDelegate.h */,
 				8BF7FE631540915000B604B4 /* AppDelegate.m */,
 				8BF7FE5A1540915000B604B4 /* Supporting Files */,
@@ -88,6 +121,35 @@
 				8BF7FE611540915000B604B4 /* PandaTube-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BF7FE731540916300B604B4 /* PandTubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BF7FE741540916300B604B4 /* Supporting Files */,
+				8BF7FE8C15409A1700B604B4 /* PandaTubePlaylistTest.m */,
+			);
+			path = PandTubeTests;
+			sourceTree = "<group>";
+		};
+		8BF7FE741540916300B604B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BF7FE751540916300B604B4 /* PandTubeTests-Info.plist */,
+				8BF7FE761540916300B604B4 /* InfoPlist.strings */,
+				8BF7FE791540916300B604B4 /* main.m */,
+				8BF7FE7B1540916300B604B4 /* PandTubeTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BF7FE8E15409BDD00B604B4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8BF7FE8F15409BEF00B604B4 /* PandaTubePlaylist.h */,
+				8BF7FE9015409BEF00B604B4 /* PandaTubePlaylist.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +170,23 @@
 			name = PandaTube;
 			productName = PandaTube;
 			productReference = 8BF7FE4F1540915000B604B4 /* PandaTube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BF7FE6D1540916300B604B4 /* PandTubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF7FE7F1540916300B604B4 /* Build configuration list for PBXNativeTarget "PandTubeTests" */;
+			buildPhases = (
+				8BF7FE6A1540916300B604B4 /* Sources */,
+				8BF7FE6B1540916300B604B4 /* Frameworks */,
+				8BF7FE6C1540916300B604B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PandTubeTests;
+			productName = PandTubeTests;
+			productReference = 8BF7FE6E1540916300B604B4 /* PandTubeTests.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,6 +211,7 @@
 			projectRoot = "";
 			targets = (
 				8BF7FE4E1540915000B604B4 /* PandaTube */,
+				8BF7FE6D1540916300B604B4 /* PandTubeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -145,6 +225,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8BF7FE6C1540916300B604B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF7FE781540916300B604B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -154,6 +242,17 @@
 			files = (
 				8BF7FE601540915000B604B4 /* main.m in Sources */,
 				8BF7FE641540915000B604B4 /* AppDelegate.m in Sources */,
+				8BF7FE9115409BEF00B604B4 /* PandaTubePlaylist.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF7FE6A1540916300B604B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF7FE7A1540916300B604B4 /* main.m in Sources */,
+				8BF7FE8D15409A1700B604B4 /* PandaTubePlaylistTest.m in Sources */,
+				8BF7FE9215409BEF00B604B4 /* PandaTubePlaylist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +263,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				8BF7FE5D1540915000B604B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BF7FE761540916300B604B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF7FE771540916300B604B4 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -238,6 +345,46 @@
 			};
 			name = Release;
 		};
+		8BF7FE801540916300B604B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PandTubeTests/PandTubeTests-Prefix.pch";
+				INFOPLIST_FILE = "PandTubeTests/PandTubeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BF7FE811540916300B604B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PandTubeTests/PandTubeTests-Prefix.pch";
+				INFOPLIST_FILE = "PandTubeTests/PandTubeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -255,6 +402,14 @@
 			buildConfigurations = (
 				8BF7FE681540915000B604B4 /* Debug */,
 				8BF7FE691540915000B604B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BF7FE7F1540916300B604B4 /* Build configuration list for PBXNativeTarget "PandTubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF7FE801540916300B604B4 /* Debug */,
+				8BF7FE811540916300B604B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
